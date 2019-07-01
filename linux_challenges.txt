@@ -1,0 +1,51 @@
+Task 1:
+
+1. $cd Desktop
+2. $mkdir myProject
+3. $cd myProject
+4. $touch app.js
+5. $cd ..
+   $mkdir myProject2
+6. $cp myProject/app.js myProject2
+
+Task 2:
+
+$touch exercise.txt
+$mv exercise /tmp
+$rm /tmp/exercise
+
+Task 3:
+
+1. $touch umuzi.txt recruits.txt cohort.txt 
+2. $Access the files using vim and write content inside the files.
+3. $cat umuzi.txt recruits.txt cohort.txt
+4. $cat umuzi.txt recruits.txt cohort.txt >> summary.txt
+5. $echo "content" >> summary
+
+Task 4:
+
+1. $locate umuzi.txt
+2. $locate umuzi.txt > search_result.txt
+
+Task 5:
+
+1. $mkdir mydocument && touch mydocument/pad.txt
+2. $cd Desktop && mkdir work
+3. $cd work
+   $cp ../../mydocument/pad.txt pad_copy.txt
+4. $sudo updatedb
+5. $cd ..
+6. $locate pad_copy.txt
+
+Task 6:
+
+1. $find . -iname '*.pdf'
+2. $find . -iname '*.pdf' -exec cp {} <dir> \;
+3. $find / -mtime 0
+
+Task 7:
+
+1. $nano my_bio.txt
+2. Ctrl + X (and "yes" to save);
+3. $mkdir my_files
+   $mv my_bio.txt my_files
